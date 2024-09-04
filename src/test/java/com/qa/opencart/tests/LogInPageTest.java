@@ -1,13 +1,10 @@
 package com.qa.opencart.tests;
 
-import java.util.Properties;
-
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.qa.opencart.base.BaseTest;
 import com.qa.opencart.constants.AppConstant;
-import com.qa.opencart.pages.LogInPage;
 
 public class LogInPageTest extends BaseTest {
 	
