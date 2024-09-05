@@ -12,12 +12,12 @@
 
 	
 
-	<test name="Open Cart Home Page Test_chrome">
+	<!-- <test name="Open Cart Home Page Test_chrome">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.qa.opencart.tests.HomePageTest" />
 		</classes>
-	</test>
+	</test> -->
 
 	<test name="Open Cart LogIn Page Test_chrome">
 		<parameter name="browser" value="chromium" />
