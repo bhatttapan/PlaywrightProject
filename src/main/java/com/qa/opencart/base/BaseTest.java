@@ -2,8 +2,8 @@ package com.qa.opencart.base;
 
 import java.util.Properties;
 
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.*;
+//import org.testng.annotations.BeforeTest;
 
 import com.microsoft.playwright.Page;
 import com.qa.opencart.factory.PlaywrightFactory;
