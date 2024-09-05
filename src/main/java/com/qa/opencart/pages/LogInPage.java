@@ -28,10 +28,10 @@ public class LogInPage {
 		return page.isVisible(fogotLink);
 	}
 	
-	public boolean doLogIn(String username, String password) throws InterruptedException {
-		System.out.println("Crednetials are: "+username+" : "+password);
-		page.fill(emailTextBox, username);
-		page.fill(passwordTextBox, password);
+	public boolean doLogIn(String appUsername, String appPassword) throws InterruptedException {
+		System.out.println("Crednetials are: "+appUsername+" : "+appPassword);
+		page.fill(emailTextBox, appUsername);
+		page.fill(passwordTextBox, appPassword);
 		page.click(loginButton);
 		Thread.sleep(5000);
 		if(page.isVisible(logOutLink)) {
