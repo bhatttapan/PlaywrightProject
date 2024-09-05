@@ -33,7 +33,7 @@ public class LogInPage {
 		page.fill(emailTextBox, appUsername);
 		page.fill(passwordTextBox, appPassword);
 		page.click(loginButton);
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 		if(page.isVisible(logOutLink)) {
 			System.out.println("user is loggedin successfuly");
 			return true;

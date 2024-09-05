@@ -37,7 +37,7 @@ public class HomePage {
 	public String doSearch(String ProductName) throws InterruptedException {
 		page.fill(searchbox, ProductName);
 		page.click(searchButton);
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 		String pageHeaderText = page.textContent(pageHeader);
 		System.out.println("the header of the page is :"+pageHeaderText);
 		return pageHeaderText;
