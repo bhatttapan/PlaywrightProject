@@ -27,7 +27,7 @@ pipeline
         
         
         
-        stage("Deploy to QA"){
+        stage('Deploy to QA'){
             steps{
                 echo("deploy to qa")
             }
