@@ -8,7 +8,7 @@ pipeline
 
     stages 
     {
-        stage('jenkins') 
+        stage('Build') 
         {
             steps
             {
